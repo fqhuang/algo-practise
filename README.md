@@ -1,4 +1,1 @@
-MyFirst
-=======
-
-The first, a test.
+For record the practice code of algo.
