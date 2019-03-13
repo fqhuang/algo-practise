@@ -1,6 +1,7 @@
 
 import java.util.Scanner;
 
+
 /*
  * 基于单链表LRU算法（java）
  *
@@ -99,35 +100,6 @@ public class LRUSingleLinkList<T> {
     }
 
 
-    private class SNode <T> {
-        private T data;
-        private SNode next;
-
-        public SNode () {
-            this.next = null;
-        }
-
-        public SNode(T data) {
-            this.data = data;
-            this.next = null;
-        }
-
-        public void setData(T data) {
-            this.data = data;
-        }
-
-        public void setNext(SNode next) {
-            this.next = next;
-        }
-
-        public T getData() {
-            return data;
-        }
-
-        public SNode getNext() {
-            return this.next;
-        }
-    }
 
     public void printAll() {
        SNode node = this.head;
